@@ -1,0 +1,17 @@
+{
+  "title": "Afterlife",
+  "repo": "sp00nznet/afterlife-recomp",
+  "accent": "#d8a030",
+  "note": {
+    "windows": "Point it at your Afterlife CD (the Windows 95 one; the folder holding ALIFE.EXE and ALIFE.000), or a copy of its files. The build takes about 5 minutes and 2 GB. Python and the Visual Studio Build Tools are installed if they are missing; the Build Tools are about 3 GB and add 15 to 30 minutes, and Windows asks for permission once."
+  },
+  "game": {
+    "name": "Afterlife (LucasArts, 1996)",
+    "files": ["ALIFE.EXE", "ALIFE.000"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-afterlife", "dir": "pcrecomp" }],
+  "setup": {
+    "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Afterlife.*"
+}
