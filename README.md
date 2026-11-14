@@ -7,7 +7,7 @@ recompiled, calling Windows directly. The CD also carries an MS-DOS build
 (`ALIFEDOS.EXE`); this project uses the Windows one.
 
 Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain, on
-its **`pcrecomp-afterlife`** branch (not merged into `main` yet), and following
+its `main` branch, and following
 its house style: layout, command line, headless mode.
 
 ![A new planet, zoned: Heaven above, Hell below, drawn by the recompiled game](docs/screenshots/zoned.png)
@@ -29,7 +29,7 @@ the CD's files, as the CD's "no installation" option did.
 3. Play with **`Afterlife`** in that folder.
 
 The script checks for Python 3.10+, `pefile` and `capstone`, the pcrecomp
-toolkit (cloned beside this folder on its `pcrecomp-afterlife` branch if it is
+toolkit (cloned beside this folder from `main` if it is
 missing) and the Visual Studio 2022 C++ compiler, and asks before installing
 any of them. It looks for the CD on every drive, or asks
 (`Setup.cmd -GameDir E:\` skips the question, `-Yes` answers yes), then

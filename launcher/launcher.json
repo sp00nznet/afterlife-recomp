@@ -9,7 +9,7 @@
     "name": "Afterlife (LucasArts, 1996)",
     "files": ["ALIFE.EXE", "ALIFE.000"]
   },
-  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-afterlife", "dir": "pcrecomp" }],
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
   "setup": {
     "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
   },

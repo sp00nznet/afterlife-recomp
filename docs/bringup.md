@@ -2,7 +2,7 @@
 
 What Afterlife needed, in the order it turned up. Each item says where the fix
 lives: in this repository's host (`src/runtime/host.c`), or in pcrecomp
-(branch `pcrecomp-afterlife`), when another game would hit it too.
+(now on `main`), when another game would hit it too.
 
 ## The copy of the game
 
